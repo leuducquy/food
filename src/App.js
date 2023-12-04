@@ -20,9 +20,9 @@ function App() {
       <BrowserRouter>
       <Provider store={store}>
       <Switch>
-        <Route  exact path='/'><Register  /></Route>
-        <Route path='/login'> <Login /></Route>
-        <Route path='/home'> <Home /></Route>
+        {/* <Route  exact path='/'><Register  /></Route>
+        <Route path='/login'> <Login /></Route> */}
+        <Route exact path='/'> <Home /></Route>
         <Route path='/cart'> <Cart /></Route>
         <Route path='/singledish'> <Singledish /></Route>
         <Route path='/alldish'> <Alldish /></Route>

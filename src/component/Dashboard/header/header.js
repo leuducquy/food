@@ -15,7 +15,7 @@ function Header(){
         history.push('/profile')
     }
     function gotoHome(){
-        history.push('/home')
+        history.push('/')
     }
     function Logout(){
         history.push('login')

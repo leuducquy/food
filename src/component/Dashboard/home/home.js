@@ -15,7 +15,7 @@ function Home(){
     const cart=useSelector((state)=>state.cart)
     let dispatch=useDispatch()
     useEffect(()=>{
-        dispatch(getTotals())
+        // dispatch(getTotals())
     },[cart,dispatch])
     const slides=[
         { url:require("../image/slide1.jpg"),title:'slide1'},
